@@ -1,0 +1,13 @@
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.exe.config
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.exe
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.pdb
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\MainWindow.g.cs
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\App.g.cs
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit_MarkupCompile.cache
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit_MarkupCompile.lref
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\MainWindow.baml
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.g.resources
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.Properties.Resources.resources
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.csproj.GenerateResource.Cache
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.exe
+C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.pdb

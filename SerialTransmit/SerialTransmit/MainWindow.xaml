@@ -1,0 +1,32 @@
+﻿<Window x:Class="SerialTransmit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerialTransmit"
+        mc:Ignorable="d"
+        Title="File2Serial" Height="350" Width="525" WindowStartupLocation="CenterScreen" MinWidth="525" MaxWidth="525" MinHeight="350" MaxHeight="350"  ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="comboBox_SerialSelect" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Width="102" Height="22" SelectionChanged="comboBox_SerialSelect_SelectionChanged">
+            <ComboBoxItem Content="9600" HorizontalAlignment="Left" Width="128"/>
+            <ComboBoxItem Content="19200" HorizontalAlignment="Left" Width="128"/>
+            <ComboBoxItem Content="115200" HorizontalAlignment="Left" Width="128"/>
+            <ComboBoxItem Content="256000" HorizontalAlignment="Left" Width="128"/>
+            <ComboBoxItem Content="3000000" HorizontalAlignment="Left" Width="128"/>
+        </ComboBox>
+        <TextBox x:Name="textBox_InputFile" HorizontalAlignment="Left" Height="20" Margin="131,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" TextChanged="textBox_InputFile_TextChanged" LostFocus="textBox_InputFile_LostFocus"/>
+        <Button x:Name="button_SelectFile" Content="Open." HorizontalAlignment="Left" Margin="451,279,0,0" VerticalAlignment="Top" Width="43" Height="20" Click="button_SelectFile_Click"/>
+        <Button x:Name="Button_Start_Stop" Content="Start/Stop" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="116" Height="20" Click="Button_Start_Stop_Click"/>
+        <TextBox x:Name="textBox_Output" HorizontalAlignment="Right" Height="256" Margin="0,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="378" VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" TextChanged="textBox_Output_TextChanged" IsReadOnly="True"/>
+        <Label x:Name="label_COM" Content="COM:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_COM_Copy" Content="BaudRate:" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_COMs" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" LostFocus="textBox_COMs_LostFocus"/>
+        <TextBox x:Name="textBox_Interval" HorizontalAlignment="Left" Height="23" Margin="10,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"  Text="0"/>
+        <Label x:Name="label" Content="Interval(uS)" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
