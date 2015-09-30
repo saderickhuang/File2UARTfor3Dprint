@@ -178,14 +178,15 @@ namespace SerialTransmit
                     {
                         textBox_Output.AppendText("\r\nSending: " + line);
                     }));
+                    while (comm.BytesToRead > 0)
+                        comm.DiscardInBuffer();
                     UsDelay(delayInterval);
                     //Thread.SLEEP(delayInterval);
                 }
                 catch (Exception e)
                 { }
 
-                while (comm.BytesToRead > 0)
-                    comm.DiscardInBuffer();
+                
                 line = sr.ReadLine();
             }
             this.Dispatcher.Invoke((Action)(() =>
