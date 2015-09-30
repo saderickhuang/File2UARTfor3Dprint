@@ -11,3 +11,17 @@ C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransm
 C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.csproj.GenerateResource.Cache
 C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.exe
 C:\Users\Huang\documents\visual studio 2015\Projects\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.pdb
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.exe.config
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.exe
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.pdb
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.exe
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\bin\Release\SerialTransmit.pdb
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.csprojResolveAssemblyReference.cache
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\MainWindow.g.cs
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\App.g.cs
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit_MarkupCompile.cache
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit_MarkupCompile.lref
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\MainWindow.baml
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.g.resources
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.Properties.Resources.resources
+D:\6.MyGit\File2UART\SerialTransmit\SerialTransmit\obj\Release\SerialTransmit.csproj.GenerateResource.Cache

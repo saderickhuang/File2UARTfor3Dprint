@@ -183,7 +183,9 @@ namespace SerialTransmit
                 }
                 catch (Exception e)
                 { }
-                
+
+                while (comm.BytesToRead > 0)
+                    comm.DiscardInBuffer();
                 line = sr.ReadLine();
             }
             this.Dispatcher.Invoke((Action)(() =>
